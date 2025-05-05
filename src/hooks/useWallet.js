@@ -1,5 +1,6 @@
 // src/hooks/useWallet.js
 import { useEffect, useState } from 'react';
+import * as validator from 'validator'
 
 export function useTronWallet() {
   const [address, setAddress] = useState(null);
