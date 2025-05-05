@@ -3,7 +3,7 @@ const port = process.env.HOST_PORT || 9090
 module.exports = {
   networks: {
     shasta: {
-      privateKey: "dfe07fb1627960b358cf9ce8236b766b7676cdd8edc510ff364f181dda7cb9ac",
+      privateKey: "dfef07fb161227960b358cf9ce3228236b766b7676cdd8edc517900ff364f181dda7561cb9ac",
       consume_user_resource_percent: 30,
       fee_limit: 1_000_000_000,
       fullHost: 'https://api.shasta.trongrid.io',
