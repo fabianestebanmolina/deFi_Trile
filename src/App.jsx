@@ -1,4 +1,6 @@
 import { useTronWallet } from './hooks/useWallet';
+import StakingDApp from "./components/StakingDApp";
+
 
 function App() {
   const { address, tronWebReady } = useTronWallet();
