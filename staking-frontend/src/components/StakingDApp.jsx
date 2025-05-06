@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import TronWeb from 'tronweb';
 import stakingABI from '../contracts/Staking.json';
+import validator from 'validator';
+
 
 // Reemplaza por la dirección real de tu contrato en Shasta
 const CONTRACT_ADDRESS = 'TU_DIRECCION_DE_CONTRATO';
